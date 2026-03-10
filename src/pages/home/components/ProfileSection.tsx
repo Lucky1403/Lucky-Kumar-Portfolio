@@ -44,7 +44,7 @@ export default function ProfileSection() {
               </div>
               <div className="flex items-center text-gray-300">
                 <i className="ri-star-line text-yellow-400 mr-3 w-5"></i>
-                <span>CGPA: 9.72/10</span>
+                <span>CGPA: 9.63/10</span>
               </div>
             </div>
           </div>
