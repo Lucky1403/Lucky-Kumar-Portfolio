@@ -15,7 +15,7 @@ export default function RecognitionSection() {
       description: ' Lead VR and gaming initiatives, organizing workshops and mentoring fellow students',
       icon: 'ri-team-line',
       color: 'purple',
-      stats: { value: '9.72', label: 'CGPA' }
+      stats: { value: '9.63', label: 'CGPA' }
     },
     {
       title: 'XR Research Intern',
