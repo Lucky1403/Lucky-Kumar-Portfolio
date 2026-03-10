@@ -68,7 +68,7 @@ export default function AboutSection() {
 
         <div className="mt-16 grid md:grid-cols-4 gap-8">
           <div className="text-center bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all duration-300">
-            <div className="text-4xl font-bold text-purple-400 mb-2">9.72</div>
+            <div className="text-4xl font-bold text-purple-400 mb-2">9.63</div>
             <div className="text-gray-300">CGPA</div>
           </div>
           <div className="text-center bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 hover:border-cyan-500/30 transition-all duration-300">
