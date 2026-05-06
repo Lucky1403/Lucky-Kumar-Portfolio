@@ -57,13 +57,13 @@ export default function ProfileSection() {
             </h3>
 
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-cyan-500/10 to-pink-500/10 rounded-xl p-4 border border-cyan-500/20">
+              {/* <div className="bg-gradient-to-r from-cyan-500/10 to-pink-500/10 rounded-xl p-4 border border-cyan-500/20">
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-white font-medium">XR Research Intern</span>
                   <span className="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded-full">In Progress</span>
                 </div>
                 <p className="text-gray-400 text-sm">Wabric (January-March 2026)</p>
-              </div>
+              </div> */}
 
               <div className="bg-gradient-to-r from-pink-500/10 to-purple-500/10 rounded-xl p-4 border border-pink-500/20">
                 <div className="flex items-center justify-between mb-2">
