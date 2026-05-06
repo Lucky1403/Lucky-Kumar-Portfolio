@@ -60,7 +60,7 @@ export default function ContactSection() {
     {
       icon: 'ri-mail-line',
       title: 'Email',
-      value: 'lucky.23062289@gmail.com',
+      value: 'lucky.230062289@gmail.com',
       color: 'purple'
     },
     {
