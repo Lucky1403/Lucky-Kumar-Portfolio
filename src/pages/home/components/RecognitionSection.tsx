@@ -15,7 +15,7 @@ export default function RecognitionSection() {
       description: ' Lead VR and gaming initiatives, organizing workshops and mentoring fellow students',
       icon: 'ri-team-line',
       color: 'purple',
-      stats: { value: '9.63', label: 'CGPA' }
+      stats: { value: '9.65', label: 'CGPA' }
     },
     {
       title: 'XR Research Intern',
@@ -28,7 +28,7 @@ export default function RecognitionSection() {
   ];
 
   const statistics = [
-    { value: '8+', label: 'Projects Completed', icon: 'ri-code-box-line', color: 'purple' },
+    { value: '10+', label: 'Projects Completed', icon: 'ri-code-box-line', color: 'purple' },
     { value: '2+', label: 'VR Hardware Experience', icon: 'ri-goggles-line', color: 'cyan' },
     { value: '1+', label: 'Years Experience', icon: 'ri-time-line', color: 'pink' },
     { value: '100%', label: 'Passion for VR', icon: 'ri-heart-line', color: 'red' }
@@ -43,7 +43,7 @@ export default function RecognitionSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto rounded-full"></div>
           <p className="text-gray-300 mt-6 max-w-2xl mx-auto">
-            Key milestones and recognition earned through dedication to VR development and academic excellence.
+            Key milestones and recognition earned through dedication to XR development and academic excellence.
           </p>
         </div>
 
