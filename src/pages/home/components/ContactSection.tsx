@@ -106,7 +106,7 @@ export default function ContactSection() {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-center space-x-4">
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br from-${info.color}-500/20 to-${info.color}-600/20 border border-${info.color}-500/30 flex items-center justify-center`}>
+                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br from-${info.color}-500/20 to-${info.color}-600/20 border border-white/20 flex items-center justify-center`}>
                       <i className={`${info.icon} text-xl text-${info.color}-400`}></i>
                     </div>
                     <div>
