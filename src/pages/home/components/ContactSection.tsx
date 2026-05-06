@@ -165,7 +165,7 @@ export default function ContactSection() {
               <h4 className="text-lg font-bold text-white mb-3">Current Status</h4>
               <div className="flex items-center text-green-400">
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-                <span>Available for XR Internship Opportunities</span>
+                <span>Available for XR Internship & Full-Time Opportunities</span>
               </div>
             </div>
           </div>
