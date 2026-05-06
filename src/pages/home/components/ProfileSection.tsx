@@ -44,7 +44,7 @@ export default function ProfileSection() {
               </div>
               <div className="flex items-center text-gray-300">
                 <i className="ri-star-line text-yellow-400 mr-3 w-5"></i>
-                <span>CGPA: 9.63/10</span>
+                <span>CGPA: 9.65/10</span>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function ProfileSection() {
                   <span className="text-white font-medium">Academic Status</span>
                   <span className="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded-full">Active</span>
                 </div>
-                <p className="text-gray-400 text-sm">Pre - Final Year Student - VIT Bhopal</p>
+                <p className="text-gray-400 text-sm">Final Year Student - VIT Bhopal</p>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function ProfileSection() {
                 <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                 <div>
                   <p className="text-white font-medium">Academic Excellence</p>
-                  <p className="text-gray-400 text-sm">Consistent top performer with 9.63 CGPA</p>
+                  <p className="text-gray-400 text-sm">Consistent top performer with 9.65 CGPA</p>
                 </div>
               </div>
             </div>
