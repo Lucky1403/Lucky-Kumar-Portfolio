@@ -187,3 +187,7 @@ export default function RecognitionSection() {
             ))}
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
