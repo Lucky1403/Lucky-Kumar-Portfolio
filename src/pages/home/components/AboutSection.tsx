@@ -18,7 +18,7 @@ export default function AboutSection() {
                 Education & Background
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Currently pursuing Bachelor of Technology in Computer Science (Gaming Technology) at Vellore Institute of Technology, Bhopal with an impressive 9.63 CGPA. Strong academic foundation with consistent excellence throughout my educational journey.
+                Currently pursuing Bachelor of Technology in Computer Science (Gaming Technology) at Vellore Institute of Technology, Bhopal with an impressive 9.65 CGPA. Strong academic foundation with consistent excellence throughout my educational journey.
               </p>
             </div>
 
@@ -72,7 +72,7 @@ export default function AboutSection() {
 
         <div className="mt-16 grid md:grid-cols-4 gap-8">
           <div className="text-center bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all duration-300">
-            <div className="text-4xl font-bold text-purple-400 mb-2">9.63</div>
+            <div className="text-4xl font-bold text-purple-400 mb-2">9.65</div>
             <div className="text-gray-300">CGPA</div>
           </div>
           <div className="text-center bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 hover:border-cyan-500/30 transition-all duration-300">
