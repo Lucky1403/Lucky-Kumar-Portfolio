@@ -53,39 +53,6 @@ export default function SkillsSection() {
     }
   ];
 
-  const certifications = [
-    {
-      title: 'Python Programming Certification',
-      issuer: 'VIT Bhopal University & Lets Upgrade',
-      icon: 'ri-terminal-box-line',
-      color: 'yellow'
-    },
-    {
-      title: 'HTML, CSS, and JavaScript for Web Developers',
-      issuer: 'Udemy',
-      icon: 'ri-html5-line',
-      color: 'orange'
-    },
-    {
-      title: 'Making Your First Virtual Reality Game',
-      issuer: 'Coursera - University of London',
-      icon: 'ri-gamepad-line',
-      color: 'purple'
-    },
-    {
-      title: 'Human Computer Interaction - HCI',
-      issuer: 'NPTEL',
-      icon: 'ri-computer-line',
-      color: 'blue'
-    },
-    {
-      title: 'Programming in Java',
-      issuer: 'VIT Bhopal University',
-      icon: 'ri-cup-line',
-      color: 'red'
-    }
-  ];
-
   return (
     <section id="skills" className="py-20 bg-gradient-to-br from-gray-900 via-black to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -130,32 +97,6 @@ export default function SkillsSection() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 mb-16">
-          <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-white mb-4">Certifications</h3>
-            <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto rounded-full"></div>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            {certifications.map((cert, index) => (
-              <div
-                key={index}
-                className="bg-white/5 rounded-xl p-6 border border-white/10 hover:border-purple-500/30 transition-all duration-300 transform hover:scale-105"
-              >
-                <div className="flex items-start space-x-4">
-                  <div className={`w-12 h-12 rounded-lg bg-gradient-to-br from-${cert.color}-500/20 to-${cert.color}-600/20 border border-${cert.color}-500/30 flex items-center justify-center flex-shrink-0`}>
-                    <i className={`${cert.icon} text-xl text-${cert.color}-400`}></i>
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-white mb-2">{cert.title}</h4>
-                    <p className="text-gray-400 text-sm">{cert.issuer}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* <div className="mt-16 text-center">
