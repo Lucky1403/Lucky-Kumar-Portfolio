@@ -28,7 +28,7 @@ export default function AboutSection() {
                 Work Experience
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                <b>Immersive Experience Designer</b> | <i>Wabric</i> (January 2026 – Present) <br />Resposible for the design and development of immersive AR/VR solutions, specializing in 3D modeling, animation, and interactive spatial environments.
+                <b>Immersive Experience Designer</b> | <i>Wabric</i> (January 2026 – March 2026) <br />Resposible for the design and development of immersive AR/VR solutions, specializing in 3D modeling, animation, and interactive spatial environments.
               </p>
               <br />
               <p className="text-gray-300 leading-relaxed">
