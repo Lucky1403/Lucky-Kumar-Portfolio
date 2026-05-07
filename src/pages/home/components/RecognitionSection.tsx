@@ -20,7 +20,7 @@ export default function RecognitionSection() {
     {
       title: 'XR Research Intern',
       subtitle: 'IIT Delhi (May - July 2025)',
-      description: 'Conducted research in Extended Reality technologies at one of India\'s premier institutes',
+      description: 'Conducted research using Extended Reality technologies at one of India\'s premier institutes',
       icon: 'ri-microscope-line',
       color: 'cyan',
       stats: { value: '2', label: 'Months' }
@@ -54,7 +54,7 @@ export default function RecognitionSection() {
               className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 hover:border-purple-500/30 transition-all duration-300 transform hover:scale-105 group"
             >
               <div className="text-center mb-6">
-                <div className={`w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-${achievement.color}-500/20 to-${achievement.color}-600/20 border border-${achievement.color}-500/30 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                <div className={`w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-${achievement.color}-500/20 to-${achievement.color}-600/20 border-2 border-white flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   <i className={`${achievement.icon} text-2xl text-${achievement.color}-400`}></i>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">{achievement.title}</h3>
@@ -84,7 +84,7 @@ export default function RecognitionSection() {
           <div className="grid md:grid-cols-4 gap-6">
             {statistics.map((stat, index) => (
               <div key={index} className="text-center group">
-                <div className={`w-12 h-12 mx-auto rounded-xl bg-gradient-to-br from-${stat.color}-500/20 to-${stat.color}-600/20 border border-${stat.color}-500/30 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                <div className={`w-12 h-12 mx-auto rounded-xl bg-gradient-to-br from-${stat.color}-500/20 to-${stat.color}-600/20 border-2 border-white flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   <i className={`${stat.icon} text-xl text-${stat.color}-400`}></i>
                 </div>
                 <div className={`text-3xl font-bold text-${stat.color}-400 mb-2`}>
@@ -99,7 +99,7 @@ export default function RecognitionSection() {
         <div className="mt-16 text-center">
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
             <div className="flex items-center justify-center mb-6">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500/20 to-cyan-600/20 border border-purple-500/30 flex items-center justify-center mr-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500/20 to-cyan-600/20 border-2 border-white flex items-center justify-center mr-4">
                 <i className="ri-graduation-cap-line text-2xl text-purple-400"></i>
               </div>
               <div className="text-left">
