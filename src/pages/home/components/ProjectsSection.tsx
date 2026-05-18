@@ -157,12 +157,11 @@ export default function ProjectsSection() {
       title: 'Emissions Eye',
       category: 'web',
       description: 'Emissions Eye is an interactive web platform designed to quantify personal carbon footprints through dynamic user assessments and historical data tracking. It features a competitive leaderboard and visualizes progress over time using integrated data analytics to encourage sustainable lifestyle changes.',
-      image: 'https://readdy.ai/api/search-image?query=Sci-fi%20VR%20survival%20game%20screenshot%20showing%20futuristic%20space%20station%20interior%20with%20dark%20corridors%2C%20invisible%20alien%20threats%2C%20high-tech%20equipment%2C%20atmospheric%20lighting%2C%20Unity%20game%20engine%20graphics%2C%20immersive%20VR%20experience%20with%20holographic%20interfaces%20and%20space%20environment&width=600&height=400&seq=echoes-void&orientation=landscape',
+      image: `${import.meta.env.BASE_URL}assets/Emission-Eye.png`,
       tech: ['HTML', 'CSS', 'Javascript', 'Flask', 'MySQL'],
       features: ['Spatial Audio', 'Hand Tracking via Controllers', 'Unique Mechanics', 'AI Enemies'],
-      // github: 'https://github.com/Lucky1403',
-      // demo: '#',
-      status: 'In Development'
+      github: 'https://github.com/Lucky1403/Emissions-Eye-Webpage',
+      demo: 'https://emissions-eye-webpage.vercel.app/cover',
     }
   ];
 
