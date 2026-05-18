@@ -159,7 +159,7 @@ export default function ProjectsSection() {
       description: 'Emissions Eye is an interactive web platform designed to quantify personal carbon footprints through dynamic user assessments and historical data tracking. It features a competitive leaderboard and visualizes progress over time using integrated data analytics to encourage sustainable lifestyle changes.',
       image: `${import.meta.env.BASE_URL}assets/Emission-Eye.png`,
       tech: ['HTML', 'CSS', 'Javascript', 'Flask', 'MySQL'],
-      features: ['Spatial Audio', 'Hand Tracking via Controllers', 'Unique Mechanics', 'AI Enemies'],
+      features: ['Dynamic Analytics', 'Advanced Carbon Calculator', 'Gamified Tier System'],
       github: 'https://github.com/Lucky1403/Emissions-Eye-Webpage',
       demo: 'https://emissions-eye-webpage.vercel.app/cover',
     }
