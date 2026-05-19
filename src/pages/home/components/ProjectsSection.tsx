@@ -99,7 +99,7 @@ export default function ProjectsSection() {
       title: 'Video Downloader',
       category: 'python',
       description: 'Created a YouTube video downloader with highest/requested quality download capabilities.',
-      image: '${import.meta.env.BASE_URL}assets/Video Downloader Project.png',
+      image: `${import.meta.env.BASE_URL}assets/Video Downloader Project.png`,
       tech: ['Python', 'yt-dlp', 'CLI', 'File Management'],
       features: ['Quality Selection', 'Progress Tracking', 'Format Options'],
       github: 'https://github.com/Lucky1403/YouTube-Video-Downloader',
