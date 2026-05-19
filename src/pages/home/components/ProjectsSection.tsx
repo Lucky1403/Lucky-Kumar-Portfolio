@@ -73,17 +73,6 @@ export default function ProjectsSection() {
       // demo: '#'
     },
     {
-      id: 7,
-      title: 'Invoice Website',
-      category: 'web',
-      description: 'Developed an invoice generation system for a small-scale firm using JavaScript, HTML, and CSS.',
-      image: 'https://readdy.ai/api/search-image?query=Invoice%20generation%20web%20application%20interface%20showing%20professional%20invoice%20template%2C%20business%20document%20layout%2C%20form%20fields%2C%20company%20branding%2C%20clean%20business%20software%20design%2C%20modern%20web%20interface&width=600&height=400&seq=invoice-web&orientation=landscape',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      features: ['PDF Export', 'Clean UI', 'Business Logic', 'Data Management'],
-      github: 'https://github.com/Lucky1403/Invoice-Generation-Website',
-      // demo: '#'
-    },
-    {
       id: 8,
       title: 'Weather Report',
       category: 'python',
