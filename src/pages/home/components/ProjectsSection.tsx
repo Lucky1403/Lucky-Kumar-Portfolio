@@ -103,7 +103,7 @@ export default function ProjectsSection() {
       tech: ['Python', 'yt-dlp', 'CLI', 'File Management'],
       features: ['Quality Selection', 'Progress Tracking', 'Format Options'],
       github: 'https://github.com/Lucky1403/YouTube-Video-Downloader',
-      // demo: '#'
+      demo: 'https://www.youtube.com/watch?v=9D4WrMRwGfs'
     },
     {
       id: 10,
