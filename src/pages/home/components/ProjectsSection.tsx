@@ -100,7 +100,7 @@ export default function ProjectsSection() {
       category: 'python',
       description: 'Created a YouTube video downloader with highest quality download capabilities.',
       image: 'https://readdy.ai/api/search-image?query=Video%20downloader%20application%20interface%20showing%20YouTube%20video%20download%20options%2C%20quality%20selection%2C%20progress%20bar%2C%20Python%20desktop%20application%2C%20modern%20software%20interface%2C%20download%20manager%20design&width=600&height=400&seq=video-downloader&orientation=landscape',
-      tech: ['Python', 'YouTube API', 'GUI', 'File Management'],
+      tech: ['Python', 'yt-dlp', 'CLI', 'File Management'],
       features: ['Quality Selection', 'Progress Tracking', 'Format Options'],
       github: 'https://github.com/Lucky1403/YouTube-Video-Downloader',
       // demo: '#'
