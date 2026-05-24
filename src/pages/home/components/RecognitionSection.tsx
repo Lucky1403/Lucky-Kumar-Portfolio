@@ -62,7 +62,7 @@ export default function RecognitionSection() {
       title: 'Developing AR/VR/MR/XR Apps with WebXR, Unity & Unreal',
       issuer: 'University of Michigan - Coursera',
       icon: 'ri-gamepad-line',
-      color: 'red'
+      color: 'purple'
     }
   ];
 
