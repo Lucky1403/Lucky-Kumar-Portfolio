@@ -57,6 +57,12 @@ export default function RecognitionSection() {
       issuer: 'VIT Bhopal University',
       icon: 'ri-cup-line',
       color: 'red'
+    },
+    {
+      title: 'Developing AR/VR/MR/XR Apps with WebXR, Unity & Unreal',
+      issuer: 'University of Michigan - Coursera',
+      icon: 'ri-gamepad-line',
+      color: 'red'
     }
   ];
 

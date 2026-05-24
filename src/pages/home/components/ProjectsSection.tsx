@@ -73,7 +73,7 @@ export default function ProjectsSection() {
       // demo: '#'
     },
     {
-      id: 8,
+      id: 7,
       title: 'Weather Report',
       category: 'python',
       description: 'Built a Python tool that fetches real-time weather data using API integration.',
@@ -84,7 +84,7 @@ export default function ProjectsSection() {
       // demo: '#'
     },
     {
-      id: 9,
+      id: 8,
       title: 'Video Downloader',
       category: 'python',
       description: 'Created a YouTube video downloader with highest/requested quality download capabilities.',
@@ -95,7 +95,7 @@ export default function ProjectsSection() {
       demo: 'https://www.youtube.com/watch?v=9D4WrMRwGfs'
     },
     {
-      id: 10,
+      id: 9,
       title: 'AR Fruit Slash',
       category: 'ar',
       description: 'Created a Unity-based Augmented Reality (AR) game leverages AR Foundation to project the addictive fruit-slicing action onto any real-world surface, turning your environment into a dynamic arcade.',
@@ -107,7 +107,7 @@ export default function ProjectsSection() {
       status: 'In Development'
     },
     {
-      id: 11,
+      id: 10,
       title: 'Deepseek Based NPC',
       category: 'vr',
       description: 'Created a DeepSeek API-powered NPC offers fully customizable, real-time conversational intelligence for virtual worlds, allowing its role and knowledge to be defined entirely by the use case.',
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
       demo: 'https://youtu.be/GL3c6sDD5Gk',
     },
     {
-      id: 12,
+      id: 11,
       title: 'Solar System AR',
       category: 'ar',
       description: 'Developed a markerless AR simulation that projects a precised and accurate, interactive 3D Solar System onto any surface using real-time plane detection and engages in interactive learning.',
@@ -130,7 +130,7 @@ export default function ProjectsSection() {
       status: 'In Development'
     },
     {
-      id: 13,
+      id: 12,
       title: 'Box Cricket VR',
       category: 'vr',
       description: 'Box Cricket VR brings the high-octane energy of indoor cricket to a fully immersive virtual stadium, allowing players to step onto the pitch from any lab or workspace.',
@@ -142,7 +142,7 @@ export default function ProjectsSection() {
       status: 'In Development'
     },
     {
-      id: 14,
+      id: 13,
       title: 'Emissions Eye',
       category: 'web',
       description: 'Emissions Eye is an interactive web platform designed to quantify personal carbon footprints through dynamic user assessments and historical data tracking. It features a competitive leaderboard and visualizes progress over time using integrated data analytics to encourage sustainable lifestyle changes.',
