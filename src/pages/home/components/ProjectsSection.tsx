@@ -151,6 +151,18 @@ export default function ProjectsSection() {
       features: ['Dynamic Analytics', 'Advanced Carbon Calculator', 'Gamified Tier System'],
       github: 'https://github.com/Lucky1403/Emissions-Eye-Webpage',
       demo: 'https://emissions-eye-webpage.vercel.app/cover',
+    },
+    {
+      id: 14,
+      title: 'Fruit Slash VR',
+      category: 'VR',
+      description: 'Fruit Slash VR is an immersive virtual reality game where players slice falling fruits with precision and speed, offering a thrilling experience.',
+      image: `${import.meta.env.BASE_URL}assets/Emission-Eye.png`,
+      tech: ['Unity', 'C#', 'Meta XR All in One SDK'],
+      features: ['Immersive Gameplay', 'Hand Tracking', 'Zen Mode'],
+      github: 'https://github.com/Lucky1403/Fruit-Slash-VR',
+      // demo: 'https://emissions-eye-webpage.vercel.app/cover',
+      status: 'In Development'
     }
   ];
 
