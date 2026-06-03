@@ -74,14 +74,14 @@ export default function ProjectsSection() {
     },
     {
       id: 7,
-      title: 'Weather Report',
-      category: 'python',
-      description: 'Built a Python tool that fetches real-time weather data using API integration.',
-      image: 'https://readdy.ai/api/search-image?query=Weather%20application%20interface%20showing%20current%20weather%20conditions%2C%20temperature%20display%2C%20weather%20icons%2C%20forecast%20data%2C%20Python%20GUI%20application%2C%20clean%20weather%20app%20design%2C%20API%20data%20visualization&width=600&height=400&seq=weather-app&orientation=landscape',
-      tech: ['Python', 'API Integration', 'Data Processing'],
-      features: ['Real-Time Data', 'Weather Forecasts', 'Location-Based', 'CLI Tool'],
-      // github: 'https://github.com/Lucky1403',
-      // demo: '#'
+      title: 'AeroTemp — Advanced Weather Intelligence Dashboard',
+      category: 'web',
+      description: 'Built A premium weather intelligence dashboard that brings weather forecast and analysis to life. It features visual charting analytics and a unique climate comparison engine to compare current conditions.',
+      image: `${import.meta.env.BASE_URL}assets/Weather Dashboard.png`,
+      tech: ['HTML', 'CSS', 'JavaScript', 'Chart.js', 'Open-Meteo API'],
+      features: ['Saved Location', 'Interactive Charts', 'Weather Time Machine'],
+      github: 'https://github.com/Lucky1403/Weather-Dashboard',
+      demo: 'https://youtu.be/W6oUG3J3hYg'
     },
     {
       id: 8,
