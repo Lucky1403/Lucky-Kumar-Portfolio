@@ -127,7 +127,6 @@ export default function ProjectsSection() {
       features: ['Markerless AR', 'Interactive learning', 'Ground Plane Detection'],
       github: 'https://github.com/Lucky1403/Solar-System-AR',
       // demo: '#',
-      status: 'In Development'
     },
     {
       id: 12,
