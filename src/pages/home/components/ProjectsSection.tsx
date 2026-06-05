@@ -66,7 +66,7 @@ export default function ProjectsSection() {
       title: 'Currency Converter',
       category: 'web',
       description: 'Built a real-time currency converter using JavaScript and API Integration, enabling seamless conversions across 180+ global currencies with live updates. Features a user-friendly and responsive design.',
-      image: 'https://readdy.ai/api/search-image?query=Currency%20calculator%20web%20application%20interface%20showing%20exchange%20rates%2C%20multiple%20currency%20options%2C%20real-time%20conversion%2C%20clean%20modern%20UI%20design%2C%20financial%20app%20interface%2C%20responsive%20web%20design&width=600&height=400&seq=currency-calc&orientation=landscape',
+      image: `${import.meta.env.BASE_URL}assets/Currency Converter.png`,
       tech: ['HTML', 'CSS', 'JavaScript', 'Keyless-API Integration'],
       features: ['Real-Time Rates', 'Multi-Currency Support', 'Clean UI', 'API Integration'],
       github: 'https://github.com/Lucky1403/Currency-Converter',
