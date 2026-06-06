@@ -126,7 +126,7 @@ export default function ProjectsSection() {
       tech: ['Unity', 'C#', 'Vuforia Engine SDK'],
       features: ['Markerless AR', 'Interactive learning', 'Ground Plane Detection'],
       github: 'https://github.com/Lucky1403/Solar-System-AR',
-      // demo: '#',
+      demo: 'https://youtu.be/FABQSlvuok0',
     },
     {
       id: 12,
