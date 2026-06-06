@@ -136,7 +136,7 @@ export default function ProjectsSection() {
       image: `${import.meta.env.BASE_URL}assets/Box Cricket.png`,
       tech: ['Unity', 'C#', 'Unity Meta Movement SDK'],
       features: ['Immersive Experience', 'Realistic Physics', 'Full Body Tracking'],
-      // github: 'https://github.com/Lucky1403/Solar-System-AR',
+      github: 'https://github.com/Lucky1403/Box-Cricket-VR',
       // demo: '#',
       status: 'In Development'
     },
