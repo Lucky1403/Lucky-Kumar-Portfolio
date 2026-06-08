@@ -81,7 +81,7 @@ export default function ProjectsSection() {
       tech: ['HTML', 'CSS', 'JavaScript', 'Chart.js', 'Open-Meteo API'],
       features: ['Saved Location', 'Interactive Charts', 'Weather Time Machine'],
       github: 'https://github.com/Lucky1403/Weather-Dashboard',
-      demo: 'https://youtu.be/W6oUG3J3hYg'
+      demo: 'https://weather-dashboard-xi-inky.vercel.app/'
     },
     {
       id: 8,
