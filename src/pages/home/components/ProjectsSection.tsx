@@ -156,7 +156,7 @@ export default function ProjectsSection() {
       title: 'Fruit Slash VR',
       category: 'VR',
       description: 'Fruit Slash VR is an immersive virtual reality game where players slice falling fruits with precision and speed, offering a thrilling experience.',
-      image: `${import.meta.env.BASE_URL}assets/Emission-Eye.png`,
+      image: `${import.meta.env.BASE_URL}assets/Fruit Slash VR.png`,
       tech: ['Unity', 'C#', 'Meta XR All in One SDK'],
       features: ['Immersive Gameplay', 'Hand Tracking', 'Zen Mode'],
       github: 'https://github.com/Lucky1403/Fruit-Slash-VR',
