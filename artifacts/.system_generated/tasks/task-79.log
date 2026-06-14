@@ -1,0 +1,700 @@
+
+> portfolio-local@0.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 215 ms
+
+  ➜  Local:   http://localhost:5173/Portfolio-Website
+  ➜  Network: use --host to expose
+7:18:40 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+7:24:27 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+7:28:53 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+7:50:24 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:04:24 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:08:55 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:08:55 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (22:15)
+
+  20 |       company: 'IIT Delhi',
+  21 |       duration: 'May - July 2025',
+> 22 |       summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                ^
+  23 | under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 | with 3D model alignment in Unity to support diagnostic accuracy. .',
+  25 |       color: 'cyan',
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:22:15
+  20 |        company: 'IIT Delhi',
+  21 |        duration: 'May - July 2025',
+  22 |        summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                 ^
+  23 |  under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 |  with 3D model alignment in Unity to support diagnostic accuracy. .',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:08:55 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (22:15)
+
+  20 |       company: 'IIT Delhi',
+  21 |       duration: 'May - July 2025',
+> 22 |       summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                ^
+  23 | under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 | with 3D model alignment in Unity to support diagnostic accuracy. .',
+  25 |       color: 'cyan',
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:22:15
+  20 |        company: 'IIT Delhi',
+  21 |        duration: 'May - July 2025',
+  22 |        summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                 ^
+  23 |  under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 |  with 3D model alignment in Unity to support diagnostic accuracy. .',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:08:58 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:08:58 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (22:15)
+
+  20 |       company: 'IIT Delhi',
+  21 |       duration: 'May - July 2025',
+> 22 |       summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                ^
+  23 | under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 | with 3D model alignment in Unity to support diagnostic accuracy.',
+  25 |       color: 'cyan',
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:22:15
+  20 |        company: 'IIT Delhi',
+  21 |        duration: 'May - July 2025',
+  22 |        summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                 ^
+  23 |  under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 |  with 3D model alignment in Unity to support diagnostic accuracy.',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:08:58 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (22:15)
+
+  20 |       company: 'IIT Delhi',
+  21 |       duration: 'May - July 2025',
+> 22 |       summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                ^
+  23 | under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 | with 3D model alignment in Unity to support diagnostic accuracy.',
+  25 |       color: 'cyan',
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:22:15
+  20 |        company: 'IIT Delhi',
+  21 |        duration: 'May - July 2025',
+  22 |        summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance 
+     |                 ^
+  23 |  under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+  24 |  with 3D model alignment in Unity to support diagnostic accuracy.',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:09:04 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:09:04 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (22:15)
+
+  20 |       company: 'IIT Delhi',
+  21 |       duration: 'May - July 2025',
+> 22 |       summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+     |                ^
+  23 | with 3D model alignment in Unity to support diagnostic accuracy.',
+  24 |       color: 'cyan',
+  25 |       year: '2025'
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:22:15
+  20 |        company: 'IIT Delhi',
+  21 |        duration: 'May - July 2025',
+  22 |        summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+     |                 ^
+  23 |  with 3D model alignment in Unity to support diagnostic accuracy.',
+  24 |        color: 'cyan',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:09:04 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (22:15)
+
+  20 |       company: 'IIT Delhi',
+  21 |       duration: 'May - July 2025',
+> 22 |       summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+     |                ^
+  23 | with 3D model alignment in Unity to support diagnostic accuracy.',
+  24 |       color: 'cyan',
+  25 |       year: '2025'
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:22:15
+  20 |        company: 'IIT Delhi',
+  21 |        duration: 'May - July 2025',
+  22 |        summary: 'ontributed to the development of an AR application for dental tumor visualization and surgical assistance under faculty guidance at IIT Delhi. Worked on real-time facial landmark tracking using MediaPipe and assisted 
+     |                 ^
+  23 |  with 3D model alignment in Unity to support diagnostic accuracy.',
+  24 |        color: 'cyan',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:09:07 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:09:17 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:09:26 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:09:56 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:15:38 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:15:40 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:15:59 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:15:59 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (40:15)
+
+  38 |       company: 'Wabric',
+  39 |       duration: 'Jan - Mar 2026',
+> 40 |       summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer 
+     |                ^
+  41 | Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+  42 | Effects. ',
+  43 |       color: 'pink',
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:40:15
+  38 |        company: 'Wabric',
+  39 |        duration: 'Jan - Mar 2026',
+  40 |        summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer 
+     |                 ^
+  41 |  Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+  42 |  Effects. ',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:15:59 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (40:15)
+
+  38 |       company: 'Wabric',
+  39 |       duration: 'Jan - Mar 2026',
+> 40 |       summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer 
+     |                ^
+  41 | Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+  42 | Effects. ',
+  43 |       color: 'pink',
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:40:15
+  38 |        company: 'Wabric',
+  39 |        duration: 'Jan - Mar 2026',
+  40 |        summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer 
+     |                 ^
+  41 |  Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+  42 |  Effects. ',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:16:04 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:16:04 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (40:15)
+
+  38 |       company: 'Wabric',
+  39 |       duration: 'Jan - Mar 2026',
+> 40 |       summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+     |                ^
+  41 | Effects. ',
+  42 |       color: 'pink',
+  43 |       year: '2026'
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:40:15
+  38 |        company: 'Wabric',
+  39 |        duration: 'Jan - Mar 2026',
+  40 |        summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+     |                 ^
+  41 |  Effects. ',
+  42 |        color: 'pink',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:16:04 pm [vite] Internal server error: D:\Desktop\Portolio Website\portfolio\src\pages\home\components\JourneySection.tsx: Unterminated string constant. (40:15)
+
+  38 |       company: 'Wabric',
+  39 |       duration: 'Jan - Mar 2026',
+> 40 |       summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+     |                ^
+  41 | Effects. ',
+  42 |       color: 'pink',
+  43 |       year: '2026'
+  Plugin: vite:react-babel
+  File: D:/Desktop/Portolio Website/portfolio/src/pages/home/components/JourneySection.tsx:40:15
+  38 |        company: 'Wabric',
+  39 |        duration: 'Jan - Mar 2026',
+  40 |        summary: 'Contributed to building an AR application prototype in Unity, focusing on real-time rendering and Computer Vision integration. Assisted in creating and optimizing 3D assets and animations using Blender and Adobe After 
+     |                 ^
+  41 |  Effects. ',
+  42 |        color: 'pink',
+      at constructor (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6624:19)
+      at Object.unterminated (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5689:20)
+      at readStringContents (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5431:16)
+      at TypeScriptParserMixin.readString (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6523:9)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:6283:14)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4826:11)
+      at TypeScriptParserMixin.getTokenFromCode (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10042:11)
+      at TypeScriptParserMixin.nextToken (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5807:10)
+      at TypeScriptParserMixin.next (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5717:10)
+      at TypeScriptParserMixin.eat (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:5721:12)
+      at TypeScriptParserMixin.parseObjectProperty (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12023:14)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12052:100)
+      at TypeScriptParserMixin.parseObjPropValue (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9797:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11989:17)
+      at TypeScriptParserMixin.parseObjectLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11904:21)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11403:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12567:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12249:18)
+      at TypeScriptParserMixin.parseExprList (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12224:22)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12131:26)
+      at TypeScriptParserMixin.parseArrayLike (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9244:24)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11399:23)
+      at TypeScriptParserMixin.parseExprAtom (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:9839:20)
+      at D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (D:\Desktop\Portolio Website\portfolio\node_modules\@babel\parser\lib\index.js:13460:91)
+8:16:06 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:16:13 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:16:44 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:16:44 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx
+8:16:44 pm [vite] hmr update /src/pages/home/components/JourneySection.tsx

@@ -48,10 +48,10 @@ export default function Navigation() {
                 Projects
               </button>
               <button
-                onClick={() => scrollToSection('skills')}
+                onClick={() => scrollToSection('journey')}
                 className="text-white hover:text-purple-400 transition-colors duration-300 cursor-pointer"
               >
-                Skills
+                Journey
               </button>
               <button
                 onClick={() => scrollToSection('achievements')}
@@ -107,10 +107,10 @@ export default function Navigation() {
               Projects
             </button>
             <button
-              onClick={() => scrollToSection('skills')}
+              onClick={() => scrollToSection('journey')}
               className="block px-3 py-2 text-white hover:text-purple-400 transition-colors duration-300 cursor-pointer w-full text-left"
             >
-              Skills
+              Journey
             </button>
             <button
               onClick={() => scrollToSection('achievements')}

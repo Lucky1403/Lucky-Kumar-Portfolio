@@ -5,7 +5,7 @@ import HeroSection from './components/HeroSection';
 import ProfileSection from './components/ProfileSection';
 import AboutSection from './components/AboutSection';
 import ProjectsSection from './components/ProjectsSection';
-import SkillsSection from './components/SkillsSection';
+import JourneySection from './components/JourneySection';
 import RecognitionSection from './components/RecognitionSection';
 import ContactSection from './components/ContactSection';
 
@@ -17,7 +17,7 @@ export default function Home() {
       <ProfileSection />
       <AboutSection />
       <ProjectsSection />
-      <SkillsSection />
+      <JourneySection />
       <RecognitionSection />
       <ContactSection />
       <Footer />
