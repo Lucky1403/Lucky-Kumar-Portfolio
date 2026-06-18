@@ -140,7 +140,7 @@ export default function ContactSection() {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center">
                   <i className="ri-check-line text-green-400 mr-3"></i>
-                  Strong academic performance (9.65 CGPA)
+                  Strong academic performance (9.6 CGPA)
                 </li>
                 <li className="flex items-center">
                   <i className="ri-check-line text-green-400 mr-3"></i>

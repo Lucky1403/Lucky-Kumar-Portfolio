@@ -44,7 +44,7 @@ export default function ProfileSection() {
               </div>
               <div className="flex items-center text-gray-300">
                 <i className="ri-star-line text-yellow-400 mr-3 w-5"></i>
-                <span>CGPA: 9.65/10</span>
+                <span>CGPA: 9.6/10</span>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function ProfileSection() {
                 <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                 <div>
                   <p className="text-white font-medium">Academic Excellence</p>
-                  <p className="text-gray-400 text-sm">Consistent top performer with 9.65 CGPA</p>
+                  <p className="text-gray-400 text-sm">Consistent top performer with 9.6 CGPA</p>
                 </div>
               </div>
             </div>
