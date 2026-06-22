@@ -167,13 +167,12 @@ export default function ProjectsSection() {
       id: 15,
       title: 'Pothole Detection VR Simulator',
       category: 'vr',
-      description: 'Fruit Slash VR is an immersive virtual reality game where players slice falling fruits with precision and speed, offering a thrilling experience.',
-      image: `${import.meta.env.BASE_URL}assets/Fruit Slash VR.png`,
-      tech: ['Unity', 'C#', 'Meta XR All in One SDK'],
-      features: ['Immersive Gameplay', 'Hand Tracking', 'Zen Mode'],
+      description: 'Pothole Detection VR is a simulator build to simulate the working of the Pothole Detection Project (a machine learning project) features the VR Based Car Controller with different types of signals on the basis of severity levels.',
+      image: `${import.meta.env.BASE_URL}assets/Pothole Detection.png`,
+      tech: ['Unity', 'C#', 'XR Interaction Toolkit'],
+      features: ['Simulator', 'VR-Car Controller', 'Severity Alarms'],
       github: 'https://github.com/Lucky1403/Pothole-Detection-VR-Simulator',
       // demo: 'https://emissions-eye-webpage.vercel.app/cover',
-      status: 'In Development'
     }
   ];
 
